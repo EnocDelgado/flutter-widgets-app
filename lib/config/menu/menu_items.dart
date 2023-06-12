@@ -31,24 +31,31 @@ const appMenuItems = <MenuItem>[
     icon: Icons.credit_card
   ),
 
-   MenuItem(
+  MenuItem(
     title: 'ProgressIndicators', 
     subTitle: 'Generals and controlled', 
     link:'/progress', 
     icon: Icons.refresh_rounded
   ),
 
-   MenuItem(
+  MenuItem(
     title: 'Snackbar and dialogs', 
     subTitle: 'Screen indicators', 
     link:'/snackbar', 
     icon: Icons.info_outline
   ),
 
-   MenuItem(
+  MenuItem(
     title: 'Animated container', 
     subTitle: 'Statful widget anminated', 
     link:'/animated', 
     icon: Icons.check_box_outline_blank_sharp
+  ),
+
+   MenuItem(
+    title: 'UI Controls', 
+    subTitle: 'Fliutter Series Controls', 
+    link:'/ui-constrols', 
+    icon: Icons.car_rental_outlined
   ),
 ];
