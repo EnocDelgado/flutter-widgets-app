@@ -39,10 +39,10 @@ const appMenuItems = <MenuItem>[
   ),
 
    MenuItem(
-    title: 'Cards', 
-    subTitle: 'Styled container', 
-    link:'/cards', 
-    icon: Icons.credit_card
+    title: 'Snackbar and dialogs', 
+    subTitle: 'Screen indicators', 
+    link:'/snackbar', 
+    icon: Icons.info_outline
   ),
 
    MenuItem(
