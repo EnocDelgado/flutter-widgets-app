@@ -24,7 +24,28 @@ const appMenuItems = <MenuItem>[
     icon: Icons.smart_button_outlined
   ),
 
-    MenuItem(
+  MenuItem(
+    title: 'Cards', 
+    subTitle: 'Styled container', 
+    link:'/cards', 
+    icon: Icons.credit_card
+  ),
+
+   MenuItem(
+    title: 'ProgressIndicators', 
+    subTitle: 'Generals and controlled', 
+    link:'/progress', 
+    icon: Icons.refresh_rounded
+  ),
+
+   MenuItem(
+    title: 'Cards', 
+    subTitle: 'Styled container', 
+    link:'/cards', 
+    icon: Icons.credit_card
+  ),
+
+   MenuItem(
     title: 'Cards', 
     subTitle: 'Styled container', 
     link:'/cards', 
