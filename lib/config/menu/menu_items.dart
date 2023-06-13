@@ -52,9 +52,23 @@ const appMenuItems = <MenuItem>[
     icon: Icons.check_box_outline_blank_sharp
   ),
 
-   MenuItem(
+  MenuItem(
     title: 'UI Controls', 
-    subTitle: 'Fliutter Series Controls', 
+    subTitle: 'Flutter Series Controls', 
+    link:'/ui-constrols', 
+    icon: Icons.car_rental_outlined
+  ),
+
+  MenuItem(
+    title: 'App Introduction', 
+    subTitle: 'Short App Tutorial', 
+    link:'/tutorial', 
+    icon: Icons.accessible_rounded
+  ),
+
+  MenuItem(
+    title: 'UI Controls', 
+    subTitle: 'App Tutorial', 
     link:'/ui-constrols', 
     icon: Icons.car_rental_outlined
   ),
