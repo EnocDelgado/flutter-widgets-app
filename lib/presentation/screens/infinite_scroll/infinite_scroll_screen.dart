@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 
 class InfiniteScrollScreen extends StatefulWidget {
 
-  static const name = 'infinite_scren';
+  static const name = 'infinite_screen';
   
   const InfiniteScrollScreen({super.key});
 
