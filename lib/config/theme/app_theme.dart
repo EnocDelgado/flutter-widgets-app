@@ -34,4 +34,15 @@ class AppTheme {
       centerTitle: false
     )
   );
+
+  // method that copy all methods
+  AppTheme copyWith({
+    int? selectedColor,
+    bool? isDarkmode
+  }) => AppTheme(
+
+    // create new instance
+    selectedColor: selectedColor ?? this.selectedColor,
+    isDarkMode: isDarkmode ?? isDarkMode
+  );
 }
